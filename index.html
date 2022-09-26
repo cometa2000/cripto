@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-3">
+                <h2>Criptomonedas</h2>
+                <form id="frmCalculadora">
+                    <label for="opciones">Criptos</label>
+                    <select id="opciones" class="form-select">
+                        <option value="b">Bitcoin</option>
+                        <option value="e">Etherium</option>
+                        <option value="d">Dogecoin</option>
+                        <option value="x">XRP</option>
+                    </select>
+                    <label for="valor1">Cantidad a invertir</label>
+                    <input type="text" id="valor1" class="form-control" placeholder="$ Cantidad en Pesos">
+
+                    <span class="btn btn-danger mt-3" id="btnEjecutar">Ejecutar</span>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
+<!-- las aplicaciones web progresibas ya trabajan con camaras -->
